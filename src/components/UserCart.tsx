@@ -13,7 +13,7 @@ export function UserCart({ user }: { user: User }) {
     <StyledCart  >
         <StyledImg src={user.avatar_url} alt="avatar" />
         <h3>{user.name ? user.name : 'There is no name'}</h3>
-        <p>{user.bio ? user.bio : 'There in no bio'}</p>
+        <p>{user.bio ? user.bio : 'There is no bio'}</p>
         <StyledA target="_blank" rel="noopener noreferrer" href={user.html_url}>GitHub</StyledA>
     </StyledCart>
 
